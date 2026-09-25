@@ -1,12 +1,41 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-const Name = "Next Level Gaming";
+const Name="Next Level Gaming"
 export default function App() {
   return (
     <View style={styles.container}>
-      <view style={styles.card}></view>
-      <Text>{Name}</Text>
+      <text>{Name}</text>
+      <view style={styles.card}>
+
+
+      </view>
+      <text>What we offer</text>
+      <text>Our Services</text>
+      <view style={styles.card}>
+      
+      </view>
+      <view style={styles.card}>
+
+      </view>
+      <text>About Us</text>
+      <view style={styles.card}>
+
+      </view>
+      <text>Our Packages</text>
+      <text>Choose your Experience</text>
+      <view style={styles.card}>
+
+      </view>
+      <text>Events & Tournaments</text>
+      <view style={styles.card}>
+
+      </view>
+      <text>Gallery</text>
+      <view style={styles.card}>
+
+      </view>
+
       <StatusBar style="auto" />
     </View>
   );
@@ -15,17 +44,17 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#101010',
-    paddingTop: 90,
+    backgroundColor: '#fffff',
+    paddingTop: 20,
     paddingHorizontal: 20,
   },
   card:{
     backgroundColor:"#f5f4ef",
-    padding:24,
+    padding:50,
   },
-  name:{
+  Name:{
     fontSize: 30,
     fontWeight: "bold",
-    color: "#f5f4ef",
+    color: "#ffffff",
   },
 });
